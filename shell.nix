@@ -6,5 +6,6 @@
 		# 추가하였습니다. 필요한 경우 삭제하시면 됩니다.
 		shellHook = ''
 		  export SHELL=zsh
+			export LD_LIBRARY_PATH=${pkgs.stdenv.cc.cc.lib}/lib/
 		'';
 	}
