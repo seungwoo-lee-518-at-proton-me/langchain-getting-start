@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "langchain-getting-start"
+version = "0.1.0"
+description = "Langchain Development Environment"
+authors = ["SEUNGWOO LEE"]
+license = "Apache-2.0"
+readme = "README.md"
+packages = [{include = "langchain_getting_start"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.126"
+jupyter = "^1.0.0"
+notebook = "^6.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
